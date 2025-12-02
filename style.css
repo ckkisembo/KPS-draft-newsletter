@@ -2,6 +2,13 @@ body {
     background-color: #F5F2E8;
 }
 
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
 h1 {
   font-family: "Chela One", system-ui;
   font-weight: 400;
@@ -49,113 +56,7 @@ ul {
     list-style: none;
 }
 
-.editor {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    height: 100vh;
-    gap: 10px;
-}
-
-.note {
-    grid-column: span 2;
-    grid-row: span 2;
-    margin-top: 50px;
-}
-
-.toc-team {
-    grid-row: span 2;
-}
-
-.project {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    height: 200vh;
-    gap: 20px;
-}
-
-.shoutouts {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    height: 80vh;
-    gap: 10px;
-}
-
-.tidbits {
-    grid-column: span 3;
-}
-
-.awards-main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    height: 150vh;
-    gap: 10px;
-}
-
-.awards {
-    grid-column: span 3;
-}
-
-.awards-cont {
-    grid-column: span 4;
-}
-
-.spin {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    height: 220vh;
-    gap: 10px;
-}
-
-.subgroups {
-    grid-column: span 4;
-}
-
-.bawala {
-    grid-column: span 2;
-}
-
-.invest-tour {
-    grid-column: span 2;
-}
-
-.katale {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    height: 160vh;
-    gap: 10px;
-}
-
-.news {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    height: 130vh;
-    gap: 10px;
-}
-
-.bonus {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    height: 140vh;
-    gap: 10px;
-}
-
-.recipe {
-    grid-column: span 3;
-}
-
-.golf {
-    grid-column: span 3;
-}
-
-@media (min-width: 576px) {
+@media (min-width: 786px) {
     .container {
         margin-bottom: 10px;
       }
